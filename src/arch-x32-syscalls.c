@@ -387,6 +387,7 @@ const struct arch_syscall_def x32_syscall_table[] = { \
 	{ "stat64", __PNR_stat64 },
 	{ "statfs", (X32_SYSCALL_BIT + 137) },
 	{ "statfs64", __PNR_statfs64 },
+	{ "statx", (X32_SYSCALL_BIT + 332) },
 	{ "stime", __PNR_stime },
 	{ "stty", __PNR_stty },
 	{ "subpage_prot", __PNR_subpage_prot },

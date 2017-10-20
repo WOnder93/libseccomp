@@ -388,6 +388,7 @@ const struct arch_syscall_def ppc_syscall_table[] = { \
 	{ "stat64", 195 },
 	{ "statfs", 99 },
 	{ "statfs64", 252 },
+	{ "statx", 383},
 	{ "stime", 25 },
 	{ "stty", 31 },
 	{ "subpage_prot", 310 },

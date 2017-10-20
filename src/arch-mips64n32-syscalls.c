@@ -391,6 +391,7 @@ const struct arch_syscall_def mips64n32_syscall_table[] = { \
 	{ "stat64", __PNR_stat64 },
 	{ "statfs", (__SCMP_NR_BASE + 134) },
 	{ "statfs64", (__SCMP_NR_BASE + 217) },
+	{ "statx", (__SCMP_NR_BASE + 330) },
 	{ "stime", __PNR_stime },
 	{ "stty", __PNR_stty },
 	{ "subpage_prot", __PNR_subpage_prot },

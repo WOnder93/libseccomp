@@ -399,6 +399,7 @@ const struct arch_syscall_def arm_syscall_table[] = { \
 	{ "stat64", (__SCMP_NR_BASE + 195) },
 	{ "statfs", (__SCMP_NR_BASE + 99) },
 	{ "statfs64", (__SCMP_NR_BASE + 266) },
+	{ "statx", (__SCMP_NR_BASE + 397) },
 	{ "stime", __PNR_stime },
 	{ "stty", __PNR_stty },
 	{ "subpage_prot", __PNR_subpage_prot },

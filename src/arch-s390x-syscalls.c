@@ -371,6 +371,7 @@ const struct arch_syscall_def s390x_syscall_table[] = { \
 	{ "stat64", __PNR_stat64 },
 	{ "statfs", 99 },
 	{ "statfs64", 265 },
+	{ "statx", 379 },
 	{ "stime", __PNR_stime },
 	{ "stty", __PNR_stty },
 	{ "subpage_prot", __PNR_subpage_prot },

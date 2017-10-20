@@ -387,6 +387,7 @@ const struct arch_syscall_def x86_64_syscall_table[] = { \
 	{ "stat64", __PNR_stat64 },
 	{ "statfs", 137 },
 	{ "statfs64", __PNR_statfs64 },
+	{ "statx", 332 },
 	{ "stime", __PNR_stime },
 	{ "stty", __PNR_stty },
 	{ "subpage_prot", __PNR_subpage_prot },
